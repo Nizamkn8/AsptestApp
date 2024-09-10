@@ -1,0 +1,116 @@
+.datepicker {
+    background-color: var(--light-grayish-blue) ;
+}
+
+
+.ui-widget-content{
+    background-color: transparent;
+    border: 0px;
+}
+
+.ui-widget.ui-widget-content {
+    border: 0px;
+}
+
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active{
+    border: 0px;
+    background-color: var(--white);
+    text-align: center;
+    padding: 7px;
+}
+
+.ui-datepicker{
+    width: 100%;
+    height: 484px;
+    border-radius: 15px;
+}
+
+
+
+.ui-datepicker .ui-datepicker-header {
+    font-size: 34px;
+    font-family: 'prata reg';
+    font-weight: 300;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.ui-datepicker .ui-datepicker-title{
+    width: 100%;
+    margin: 0px;
+    text-align: start;
+}
+
+.ui-datepicker-prev {
+    background-position: 0 0;
+    right: 31px !important;
+  }
+  
+  .ui-datepicker-next {
+    background-position: -33px 0 !important;
+  }
+
+
+.ui-datepicker-header .ui-corner-all {
+    background: url(./images/calendar_next_prev.png) no-repeat 0 0 transparent;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: none;
+    left: auto;
+    right: 0;
+    top: 50%;
+    margin-top: -12.5px;
+    cursor: pointer;
+  }
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    display: none;
+}
+
+
+.ui-datepicker table{
+    background-color: var(--white);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+a.ui-state-default {
+    width: 45px;
+    height: 45px;
+    padding-top: 20px;
+}
+
+.ui-datepicker-calendar .highlight>.ui-state-default {
+    background-color: brown;
+    border-radius: 100%;
+    color: var(--white);
+}
+
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td  {
+    width: 56px;
+    font-family: 'prata reg';
+    font-size: 19px;
+    color:  var(--dark-moderate-red);
+}
+
+.ui-datepicker td span, .ui-datepicker td a{
+    font-family: 'prata reg';
+    font-size: 19px;
+    color: var(--very-dark-blue);
+}
+
+.ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    background-color: var(--white);
+}

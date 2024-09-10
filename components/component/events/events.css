@@ -1,0 +1,119 @@
+.events-views-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-date-mobile{
+    display: none;
+}
+
+.event-full-date-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    border: 0px solid;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--white);
+    background: var(--dark-moderate-red);
+}
+
+.event-full-date-field .events-month, .events-year {
+   font-family: 'prata reg';
+   font-size: 16px;
+}
+
+.event-full-date-field .events-date {
+    font-family: 'prata reg';
+    font-size: 32px;
+ }
+
+ .events-details{
+    margin-left: 30px;
+}
+
+.events-name-link{
+    font-family: 'Prata Reg';
+    font-size: 19px;
+    color: var(--black);
+}
+
+
+/* second events */
+div.current-event-item {
+  border-bottom: 1.5px solid var(--very-light-gray);
+}
+
+  .events-listing {
+    font-family: 'prata reg';
+  }
+  
+  .events-views-row {
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--very-light-gray) ;
+  }
+  
+  .events-views-row:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  
+  
+  .events-month {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  
+  .events-date {
+    font-size: 38px;
+    line-height: 34px;
+  }
+  
+  .events-year {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  
+  .events-right {
+    width: calc(100% - 100px);
+    padding-left: 30px;
+  }
+  
+  .events-location {
+    font-family: 'lora reg';
+    font-size: 18px;
+    line-height: 40px;
+    color: var(--very-dark-blue);
+  }
+  
+  .events-date-mobile {
+    display: none;
+  }
+  
+  /* details inside the event popup */
+  
+  .events-details-row {
+    font-size: 13px;
+    color: var(--very-dark-blue);
+    margin-bottom: 10px;
+  }
+  
+  .events-details-row:last-child {
+    margin-bottom: 20px;
+  }
+  
+  .events-name-link:hover,
+  .active-event.events-name-link {
+    /* border-bottom: 1px solid var(--green-blue); */
+    color: var(--dark-moderate-red) ;
+  }
+  
+  

@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+.main-inner{
+    overflow-x: hidden;
+}
+
+.block-title{
+    padding-bottom: 30px;
+    font-family: 'prata reg';
+    font-size: 42px;
+    color: var(--very-dark-blue);
+}
+
+.heading-border-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.8px solid var(--dark-orange);
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:750px) {
+    .block-title{
+        padding-bottom: 14px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .block-title{
+        padding-bottom: 8px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .block-title{
+        padding-bottom: 0px;
+        font-size: 18px;
+    }
+
+    .heading-border-bottom{
+        margin-bottom: 15px;
+    }
+
+}

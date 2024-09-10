@@ -1,0 +1,76 @@
+.block-inner{
+  position: relative;
+}
+
+.calender-view{
+    display: flex;
+    width: 100%;
+}
+
+.calender-block{
+    background-color: var(--Light-grayish-blue);
+}
+
+.calender-view >.view-header{
+    width: 450px;
+    height: 484px;
+}
+
+.calender-block .custom-btn-1{
+    margin-top: 20px;
+}
+
+.calender-view > .view-content{
+    background-color: var(--white);
+    height: 482px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 450px);
+    margin-left: 10px;
+    margin-top: 79px;
+    padding: 30px;
+}
+
+.calender-nav-field {
+    display: none;
+  }
+  
+  .calender-nav:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  .calender-views-row {
+    max-height: 401px;
+    overflow: auto;
+  }
+  
+  .calender-view .calender-views-row:not(.is-active) {
+    display: none;
+  }
+
+  /* for scroll */
+  
+  .calender-views-row {
+    scrollbar-width: thin;
+    scrollbar-color: #6d6e70 transparent;
+  }
+  
+  .calender-views-row::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  .calender-views-row.horizontal::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .calender-views-row::-webkit-scrollbar-track {
+    background: #cccccc;
+  }
+  
+  .calender-views-row::-webkit-scrollbar-thumb {
+    background-color: #6d6e70;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }

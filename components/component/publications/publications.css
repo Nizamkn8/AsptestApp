@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+.publication{
+    background-color: rgba(136,112,84,.10);
+}
+
+.pub-block-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publication-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.publication-list img{
+    padding: 30px 30px 30px 30px;
+}
+
+.card{
+    background-color: var(--white);
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.pub__desc > p:nth-child(1){
+    font-family: 'prata reg';
+    font-size: 19px;
+    line-height: 29px;
+    color: var(--black);
+    padding: 0px 30px 0px 30px;
+}
+
+div.pub__desc > p:nth-child(2){
+    padding: 0px 30px 5px 30px;
+    font-family: 'Lora Reg';
+    font-size: 12px;
+    color: var(--very-dark-blue);
+}
+
+.card:hover{
+    box-shadow: 1px 8px 20px var(--dark-orange);
+    transition: .4s ease;
+}
+
+.card:hover p:nth-child(1){ 
+    color: var(--dark-orange);
+    transition: .9s ease ;
+ }
+

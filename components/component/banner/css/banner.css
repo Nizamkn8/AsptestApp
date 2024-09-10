@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.banner{
+    position: relative;
+}
+
+.banner-img img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+}
+
+.banner-img::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, 
+    rgba(0, 0, 0, 0.6) 0%, 
+    rgba(0, 0, 0, 0) 100%);
+}
+
+.banner-content{
+    width: 500px;
+    height: 100%;
+    left: 100px;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-content h2{
+    font-size: 48px;
+    font-family: 'prata reg';
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.banner-mob-desc{
+    display: none;
+}
+
+.banner-content div.banner-blurb{
+    font-size: 18px;
+    font-family: 'lora reg';
+    margin-bottom: 30px;
+    color: #ffffff;
+    line-height:28px;
+}
+

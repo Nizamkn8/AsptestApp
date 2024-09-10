@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+.footer-bottom{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.footer-bottom-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-bottom-container > div:not(:last-child){
+  border-right: 1px solid  var(--desaturated-blue);
+}
+
+.footer-bottom-l{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom-l-desc {
+  font-family: 'lora reg';
+  font-size: 14px;
+  line-height: 28px;
+  margin-left: 50px;
+}
+
+.footer-bottom-links {
+  font-family: 'prata reg';
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-bottom-links li{
+  margin-bottom: 20px;
+   list-style: none;
+}
+
+.footer-bottom-r {
+  padding-left: 30px;
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-followus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-followus-title{
+  font-family: 'prata reg';
+  font-size: 21px;
+}
+
+.footer-bottom-r li{
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-bottom-newsletter{
+    border: 1px solid var(--strong-blue);
+    padding: 20px 30px 20px 30px;
+}
+
+.footer-bottom-newsletter-l{
+  font-family: 'prata reg';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-newsletter-r input{
+  font-family: "lora reg";
+  font-size: 14px;
+  height: 40px;
+}
+
+
+.footer-bottom-newsletter .coil-readmore-btn {
+  font-family: 'lora bold';
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  padding: 13px 13px 12px 13px;
+  height: 40px;
+  text-decoration: none;
+  color: var(--white);
+  background: transparent;
+  border: 1px solid var(--white);
+}
+
+
+.social-media-footer a {
+  background: url(/components/component/footer/images/social_media_footer.png);
+  width: 21px;
+  height: 21px;
+  transition: all .25s;
+  display: block;
+}
+
+.social-media-footer a{
+  margin-left: 10px;
+}
+
+.social-media-footer .insta a {
+  background-position: -44px 0;
+  width: 21px;
+  height: 21px;
+}
+
+.social-media-footer .insta a:hover {
+  background-position: -44px -33.5px;
+}
+
+.social-media-footer .fb a {
+  background-position: -90px 0;
+  width: 21px;
+  height: 21px;
+}
+
+.social-media-footer .fb a:hover {
+  background-position: -90px -33px;
+}
+
+.social-media-footer .linkedin a {
+  background-position: -134px 0;
+  width: 21px;
+  height: 21px;
+}
+
+.social-media-footer .linkedin a:hover {
+  background-position: -134px -33px;
+}
+
+

@@ -1,0 +1,31 @@
+@media screen and (max-width: 1250px){
+    .calender-view>.view-header {
+            width: 380px;
+            height: 200px;
+        }
+    
+
+        .calender-view>.view-content {
+            width: calc(100% - 380px);
+        }
+}
+
+@media screen and (max-width: 1050px){
+
+    .calender-view>.view-content {
+        height: 100%;
+        padding: 25px 20px 25px 20px;
+        width: calc(100%);
+        margin-left: 0px;
+    }
+
+    .calender-view>.view-header {
+        width: 380px;
+        height: 0px;
+    }
+
+    .calender-view{
+        display: flex;
+        flex-direction: column;
+    }
+}

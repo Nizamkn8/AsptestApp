@@ -1,0 +1,137 @@
+@media only screen and (max-width: 991px) {
+
+    .events-right {
+      padding-left: 0px;
+    }
+  
+    .events-date-mobile {
+      width: 100%;
+      margin-bottom: 15px;
+      color: var(--very-dark-blue);
+      font-size: 22px;
+      line-height: 28px;
+    }
+  
+    .current-event-item:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  
+    .events-name {
+      padding-right: 0;
+    }
+  }
+
+  
+  @media only screen and (max-width: 767px) {
+    .event-full-date-field {
+      width: 80px;
+      height: 80px;
+      padding: 6px 10px;
+    }
+  
+    div.events-right {
+      padding-left: 0px;       
+    }
+  
+    .events-month {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  
+    .events-date {
+      font-size: 28px;
+      line-height: 28px;
+    }
+  
+    .events-year {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  
+    a.events-name-link{
+      font-size: 15px;
+    }
+
+    .events-date-mobile {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  
+    .events-date-mobile {
+      margin-bottom: 0;
+    }
+  
+    .events-location {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .current-event-item:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  
+    .events-details-row {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  
+    .current-event-item:not(:last-child) {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--very-dark-blue);
+    }
+  }
+  
+
+  @media only screen and (max-width:500px) {
+    div.event-full-date-field {
+      width: 75px;
+      height: 75px;
+      padding: 6px 10px;
+    }
+  
+    div.events-right {
+      padding-left: 0px;       
+    }
+  
+    div.events-month {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  
+    .events-date {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .events-year {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    a.events-name-link{
+      font-size: 15px;
+    }
+
+    .events-date-mobile {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  
+    .events-date-mobile {
+      margin-bottom: 0;
+    }
+  
+    .events-location {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+  }
+
+@media screen and (max-width:400px) {
+  span.events-location{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

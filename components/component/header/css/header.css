@@ -1,0 +1,141 @@
+a {
+  text-decoration: none;
+}
+
+nav.nav-bar{
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.site-header {
+  background: transparent;
+  height: 110px;
+  padding-left: 100px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+.header-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.logo-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-search-section {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.menu-section {
+  margin-left: 50px;
+}
+
+.menu-section ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menu-section li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.menu-section a {
+  font-family: 'lora reg';
+  font-size: 16px;
+  color: var(--white);
+  position: relative;
+  font-weight: 500;
+}
+
+.right-section {
+  margin: -30px 0 6px auto;
+  padding-right: 40px;
+}
+
+.nav-donate{
+  height: 25px;
+  padding: 5px 10px 0px 10px;
+  font-size: 16px;
+  font-family: 'lora reg';
+  color:  var(--dark-orange);
+  background-color: var(--white);
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 6px;
+  margin-left: 20px;
+}
+
+/*social share*/
+
+.social-media a {
+  background: url(../images/social_media.png);
+  width: 21px;
+  height: 21px;
+  transition: all 0.25s;
+  display: block;
+  background-position: -1px 0px;
+}
+
+.social-media a:hover {
+  background-position: -1px -34px;
+}
+
+.social-media .insta a {
+  background-position: -43px 0;
+  width: 21px;
+  height: 21px;
+}
+
+
+.social-media .insta a:hover {
+  background-position: -43px -35px;
+}
+
+.social-media .fb a {
+  background-position: -82px 0;
+  width: 13px;
+  height: 22px;
+}
+
+.social-media .fb a:hover {
+  background-position: -82px -34px;
+}
+
+.social-media .linkedin a {
+  background-position: -114px 0px;
+  width: 21px;
+  height: 20px;
+}
+
+.social-media .linkedin a:hover {
+  background-position: -115px -37px;
+}
+
+/*search*/
+.search-area {
+  margin-top: 10px;
+}
+
+
+

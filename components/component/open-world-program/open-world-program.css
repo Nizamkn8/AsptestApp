@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+
+.home-open-world-program-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.mob_desc{
+    display: none;
+}
+
+.home-open-world-program-left{
+    display: flex;
+    align-items: center;
+    font-family: ' prata reg';
+    font-size: 18px;
+    color: var(--very-dark-gray);
+    line-height: 28px;
+    width: calc(100% - 534px);
+    padding: 40px 50px 40px 0px;
+    flex: 1;
+}
+
+.home-open-world-program-right{
+    width: 534px;
+    height: 364px;
+}
+
+.home-open-world-program-img,
+.home-open-world-program-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.home-open-world-program-img img{
+    object-fit: cover;
+}
+
+.home-open-world-program-link a{
+    text-decoration: none;
+}
+
+
+
+
+
